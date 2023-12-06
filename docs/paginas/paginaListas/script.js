@@ -33,7 +33,7 @@ function carregarLista() {
         aTitulo.href = `../lista/lista.html?id=${r.id}`;
         aTitulo.addEventListener('click', (event) => {
             event.preventDefault();
-            window.location.replace(`${window.location.origin} /paginas/paginaListas/lista/lista.html?id=${r.id}`);
+            window.location.replace(`${window.location.origin}/pmv-ads-2023-2-e1-proj-web-t1-clube-do-quadrinho/paginas/paginaListas/lista/lista.html?id=${r.id}`);
         })
         aTitulo.innerHTML = r.titulo;
         tdTitulo.appendChild(aTitulo);
@@ -52,7 +52,7 @@ function carregarLista() {
         let aEditar = document.createElement('a');
         aEditar.addEventListener('click', function (event) {
             event.preventDefault();
-            window.location.replace(`${window.location.origin} /paginas/paginaListas/editarLista/editar-lista.html?id=${r.id}`);
+            window.location.replace(`${window.location.origin}/pmv-ads-2023-2-e1-proj-web-t1-clube-do-quadrinho/paginas/paginaListas/editarLista/editar-lista.html?id=${r.id}`);
         }); //adiciona o evento de clique
         aEditar.innerHTML = '<i class="bi bi-pencil-fill"></i>';
         tdEditar.appendChild(aEditar);
