@@ -100,7 +100,7 @@ function renderComicsResults(query, page = 0, resultsPerPage = 10) {
                     title.addEventListener("click", (event) => {
                         event.preventDefault();
                         window.location.replace(
-                            `${window.location.origin} paginas/paginaQuadrinho/quadrinho.html?id=${comic.id}`
+                            `${window.location.origin} /paginas/paginaQuadrinho/quadrinho.html?id=${comic.id}`
                         );
                     });
                     title.style.textDecoration = "none";
